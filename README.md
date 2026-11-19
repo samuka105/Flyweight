@@ -2,7 +2,7 @@
 
 Exemplo do padrão estrutural **Flyweight** aplicado a uma floresta com muitas
 árvores. O que é comum entre as árvores de uma mesma espécie (nome, cor e textura)
-fica em um único objeto compartilhado — o tipo da árvore —, criado e reaproveitado
+fica em um único objeto compartilhado, o tipo da árvore, criado e reaproveitado
 por uma fábrica com cache. Cada árvore guarda apenas o que é próprio dela (posição)
 e uma referência ao tipo, de modo que milhares de árvores reutilizam poucos tipos
 em memória.
